@@ -1,0 +1,164 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2 ,h3, h4, h5, h6{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+  color:#686d76;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Nav bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+font-family: 'Ubuntu-bold', sans-serif;
+text-align: left;
+font-size: 2rem;
+}
+.nav-item{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+/* .nav-link {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+} */
+
+
+/* Title  */
+#title{
+  text-align: left;
+}
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:26%;
+}
+
+/* features */
+#features{
+  padding: 8% 10%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-title{
+  font-size: 2rem;
+}
+
+.features-box{
+  padding: 0 5%;
+}
+.features-logo{
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin-bottom: 6%;
+}
+.features-logo:hover{
+  color:#ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding:0 8%;
+}
+.testimonials-image{
+  width:20%;
+  border-radius: 100%;
+  padding:20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 8%;
+}
+.pricing-headings{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding:0 8%;
+}
+
+.dog-name{
+  font-size: 2rem;
+}
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding:0 8%;
+}
+
+.pricing-column{
+  padding: 5%;
+}
+
+ /* Call to Action */
+ #cta{
+   padding: 7% 15%;
+ }
+ .cta-heading{
+   font-size: 2rem;
+ }
+
+/* footer */
+ #footer{
+   padding: 2% 15% 3%;
+ }
+
+ .footer-icon{
+   margin: 3% 2%;
+ }
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
